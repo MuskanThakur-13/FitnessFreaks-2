@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Freaks</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+      <div class="left">
+        <img src="assets/images/Fitnesslogo.jpg" alt="Logo">
+        <a class="logo">
+          <span class="span">Fitness Freaks</span>
+        </a>
+    
+      </div>
+
+
+      
+ 
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About Us</a>
+          </li>
+
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Classes</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+        </ul>
+
+      </nav> 
+
+      <a href="#" class="btn btn-secondary">Login </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="hero" data-section
+        style="background-image: url('./assets/images/hero-bg.png')">
+
+  
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">
+              <strong class="strong"> Hurry UP ! Register Yourself in the  Best Fitness classes</strong>
+            </p>
+
+            <div class="cont">
+         
+              <form action="nothing.php">
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your name">
+                  </div>
+      
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your Gender">
+                  </div>
+      
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your Age">
+                  </div>
+      
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your Email address">
+                  </div>
+      
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your Contact Number">
+                  </div>
+      
+                  <div class="form-gp">
+                      <input type="text" name="" placeholder="Enter your Locality">
+                  </div>
+      
+  
+                  
+              </form>
+          </div>
+
+            <button class="btn btn-primary">Submit</button>
+            <!-- <button class="btn">Submit here</button> -->
+                  
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/fontPage Img.png" width="660" height="753" alt="hero banner" class="w-100">
+
+            <!-- <img src="./assets/images/hero-circle-one.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-1"> -->
+            <img src="./assets/images/hero-circle-two.png" width="666" height="666" aria-hidden="true" alt=""
+              class="circle circle-2">
+
+            <img src="./assets/images/heart-rate.svg" width="255" height="270" alt="heart rate"
+              class="abs-img abs-img-1">
+            <img src="./assets/images/calories.svg" width="348" height="224" alt="calories" class="abs-img abs-img-2">
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <div class="about-banner has-after">
+            <img src="./assets/images/aboutImage.png" width="560" height="448" loading="lazy" alt="about banner"
+              class="w-100">
+
+
+            <img src="./assets/images/fitness.png" width="650" height="154" loading="lazy" alt="fitness"
+              class="abs-img w-100">
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">About Us</p>
+
+            <h2 class="h2 section-title">Welcome To Our Fitness Gym</h2>
+
+            <p class="section-text">
+              Welcome to our Fitness Freaks website, your ultimate destination for all things health and wellness! We're thrilled to have you join our community of fitness enthusiasts on this exciting journey toward a healthier and happier you. Whether you're a seasoned athlete or just starting your fitness adventure, our platform is packed with expert guidance, workout routines, nutritional tips, and a supportive community to help you achieve your fitness goals. So, get ready to sweat, inspire, and transform—let's embark on this incredible fitness journey together!
+            </p>
+
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video">
+        <div class="container">
+
+          <div class="video-card has-before has-bg-image"
+           
+            <iframe width="500" height="415" src="https://www.youtube.com/embed/8Lg4EzektCw?si=ARhPPgJ7_-n_xJvv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+        <iframe width="500" height="415" src="https://www.youtube.com/embed/IT94xC35u6k?si=tztpTSA6muZkb6CQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <iframe width="500" height="415" src="https://www.youtube.com/embed/FeR-4_Opt-g?si=da_taWYHH69bHLFh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            
+
+          </div>
+
+        </div>
+        
+
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="class"
+        style="background-image: url('./assets/images/classes-bg.png')">
+        <div class="container">
+
+          <p class="section-subtitle">Our Classes</p>
+
+          <h2 class="h2 section-title text-center">Varieties of Exercise Modalities</h2>
+
+          <ul class="class-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/Zumba pic.png" width="416" height="240" loading="lazy" alt="Weight Lifting"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Zumba</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Zumba is a high-energy fitness activity that combines dance and aerobic movements with infectious Latin rhythms. Participants groove to the beat, following the instructor's choreographed dance routines. Zumba classes often feature a mix of dance styles, making it suitable for people of various fitness levels and backgrounds.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Almost Full</p>
+
+                      <span class="progress-value">85%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 85%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/yoga pic.png" width="416" height="240" loading="lazy" alt="Cardio & Strenght"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                  
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Yoga</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Yoga is a holistic mind-body practice that incorporates physical postures, controlled breathing, and meditation techniques. It is known for its ability to enhance flexibility, balance, and strength, all while promoting relaxation and reducing stress. 
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Partially Filled</p>
+
+                      <span class="progress-value">60%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 70%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="class-card">
+
+                <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                  <img src="./assets/images/weightlift pic.png" width="416" height="240" loading="lazy" alt="Power Yoga"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="title-wrapper">
+                    
+
+                    <h3 class="h3">
+                      <a href="#" class="card-title">Weightlifting</a>
+                    </h3>
+                  </div>
+
+                  <p class="card-text">
+                    Weightlifting, also known as strength training, involves lifting weights or resistance to build muscle mass and increase overall strength. It's a fundamental component of any well-rounded fitness regimen. Weightlifting helps target specific muscle groups for toning and growth.
+                  </p>
+
+                  <div class="card-progress">
+
+                    <div class="progress-wrapper">
+                      <p class="progress-label">Class Full</p>
+
+                      <span class="progress-value">90%</span>
+                    </div>
+
+                    <div class="progress-bg">
+                      <div class="progress-bar" style="width: 90%"></div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Latest Offers</p>
+
+          <h2 class="h2 section-title text-center">Fitness Transformation Deals</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 740; --height: 570;">
+                  <img src="./assets/images/personalised fitness.png" width="740" height="570" loading="lazy"
+                    alt="Personalized Fitness Plan Package" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">21 April 2023</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Personalized Fitness Plan Package:</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Tailored to individual fitness goals, this package includes a comprehensive assessment, personalized workout plans, and customized nutrition guidance. Our certified trainers will work with clients to create a plan that maximizes results and fits their lifestyle.
+                    
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Offer: Sign up for a 3-month plan and get a free fitness assessment and meal planning session (a $100 value).</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 740; --height: 570;">
+                  <img src="./assets/images/group fitness.png" width="740" height="570" loading="lazy"
+                    alt="Group Fitness Classes Membership" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">2 May 2023</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Group Fitness Classes Membership:</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Join our energetic and supportive fitness community with unlimited access to our group fitness classes. From high-intensity interval training (HIIT) to yoga and dance workouts, there's something for everyone.
+
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Offer: Get a 1-month membership at 50% off when you refer a friend who signs up for a 3-month membership.</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 740; --height: 570;">
+                  <img src="assets/images/online fitness.png" width="740" height="570" loading="lazy"
+                    alt="Online Fitness Challenge" class="img-cover">
+
+                  <time class="card-meta" datetime="2022-07-07">1 September 2023</time>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Online Fitness Challenge:</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Take part in our 30-day online fitness challenge designed to transform your body and habits. Receive daily workout routines, nutrition tips, and access to a supportive online community.
+                  </p>
+
+                  <a href="#" class="btn-link has-before">Offer: Enroll in the challenge for just $29.99 (originally $49.99) and compete for a chance to win a fitness gear bundle worth $500.</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <ion-icon name="fitness" aria-hidden="true"></ion-icon>
+
+            <span class="span">Fitness Freaks</span>
+          </a>
+
+          <p class="footer-brand-text">
+            Move Your Body, Shape Your Future
+          </p>
+
+          <div class="wrapper">
+
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Clock">
+
+            <ul class="footer-brand-list">
+
+              <li>
+                <p class="footer-brand-title">Monday - Friday</p>
+
+                <p>6:00Am - 9:30Pm</p>
+              </li>
+
+              <li>
+                <p class="footer-brand-title">Saturday - Sunday</p>
+
+                <p>7:00Am - 2:00Pm</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Contact Us</p>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+
+            <address class="address footer-link">
+              RZ-567. 39, Phase-2, Palam Colony, New Delhi
+            </address>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:1060-608-7456" class="footer-link">1060-608-7456</a>
+
+              <a href="tel:+919353278192" class="footer-link">+91 9353278192</a>
+            </div>
+          </li>
+
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:official@fitnessfreaks.com" class="footer-link">official@fitnessfreaks.com</a>
+
+              <a href="mailto:services@fitnessfreaks.com" class="footer-link">services@fitnessfreaks.com</a>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title has-before">Social Links</p>
+          </li>
+
+          
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="https://www.facebook.com/" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/accounts/login/" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.linkedin.com/in/%F0%9D%90%8C%F0%9D%90%AE%F0%9D%90%AC%F0%9D%90%A4%F0%9D%90%9A%F0%9D%90%A7-%E2%A0%80%E2%A0%80-%E2%A0%80-6aa37221b/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 Fitness Freaks. All Rights Reserved By <a href="#" class="copyright-link">My Website.</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Customer Care</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Terms & Condition</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
